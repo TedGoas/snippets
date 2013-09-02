@@ -1,0 +1,4 @@
+snippets
+========
+
+Miscellaneous code snippets
