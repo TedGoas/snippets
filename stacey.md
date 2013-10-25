@@ -11,3 +11,11 @@ A few code snippets and mixins to suppliment the [Stacey App documentation](http
 Creates CSS references for extra CSS files found in the current page's directory. Useful for art-directed pages or a collection of one-off CSS styles.
 
 ***
+
+***
+
+	<link rel="canonical" href="http://www.tedgoas.com/@permalink">
+	
+Creates a good canonical reference tag for each page.
+
+***
