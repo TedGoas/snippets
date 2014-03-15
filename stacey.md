@@ -14,8 +14,18 @@ Creates CSS references for extra CSS files found in the current page's directory
 
 ***
 
-	<link rel="canonical" href="http://www.tedgoas.com/@permalink">
+	<link rel="canonical" href="http://www.your-website.com/@permalink">
 	
 Creates a good canonical reference tag for each page.
+
+***
+
+***
+
+	$this->data['@absolute_url'] = 'http://'.$_SERVER['HTTP_HOST'].str_replace('/index.php', '', $_SERVER['PHP_SELF']).'/'.str_replace('./','', $file_path);
+	
+Creates an absolute image path.
+Place inside `app / asset-types / asset.inc.php` file at the end of the `set_default_data` function
+[c/o Catherine](https://getsatisfaction.com/stacey/topics/how_can_i_get_absolute_image_path)
 
 ***
